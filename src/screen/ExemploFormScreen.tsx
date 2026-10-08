@@ -28,7 +28,7 @@ export default function ExemploFormScreen({ navigation }: any) {
       </View>
 
       <View style={formStyles.formCard}>
-        {/* Nome */}
+
         <View style={formStyles.fieldContainer}>
           <Text style={formStyles.label}>
             Nome do produto
@@ -42,7 +42,7 @@ export default function ExemploFormScreen({ navigation }: any) {
           />
         </View>
 
-        {/* Categoria */}
+
         <View style={formStyles.fieldContainer}>
           <Text style={formStyles.label}>
             Categoria
@@ -55,7 +55,7 @@ export default function ExemploFormScreen({ navigation }: any) {
           />
         </View>
 
-        {/* Preço */}
+
         <View style={formStyles.fieldContainer}>
           <Text style={formStyles.label}>
             Preço
@@ -69,7 +69,7 @@ export default function ExemploFormScreen({ navigation }: any) {
           />
         </View>
 
-        {/* Quantidade */}
+
         <View style={formStyles.fieldContainer}>
           <Text style={formStyles.label}>
             Quantidade
@@ -83,7 +83,7 @@ export default function ExemploFormScreen({ navigation }: any) {
           />
         </View>
 
-        {/* Descrição */}
+
         <View style={formStyles.fieldContainer}>
           <Text style={formStyles.label}>
             Descrição
@@ -98,7 +98,7 @@ export default function ExemploFormScreen({ navigation }: any) {
           />
         </View>
 
-        {/* Exemplo visual de erro */}
+
         <View style={formStyles.fieldContainer}>
           <Text style={formStyles.label}>
             Código
@@ -118,7 +118,7 @@ export default function ExemploFormScreen({ navigation }: any) {
           </Text>
         </View>
 
-        {/* Botões */}
+
         <View style={formStyles.buttonContainer}>
           <TouchableOpacity style={formStyles.cancelButton}
           onPress={() => navigation.goBack()}

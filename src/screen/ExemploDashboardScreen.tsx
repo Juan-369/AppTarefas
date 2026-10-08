@@ -15,7 +15,7 @@ export default function ExemploDashboardScreen({ navigation }: any) {
         contentContainerStyle={dashboardStyles.content}
       >
 
-        {/* Cabeçalho */}
+
         <View style={dashboardStyles.header}>
 
           <View style={dashboardStyles.greetingArea}>
@@ -37,7 +37,7 @@ export default function ExemploDashboardScreen({ navigation }: any) {
           </View>
         </View>
 
-        {/* Resumo */}
+
         <Text style={dashboardStyles.sectionTitle}>
           Resumo
         </Text>
@@ -72,7 +72,7 @@ export default function ExemploDashboardScreen({ navigation }: any) {
           </View>
         </View>
 
-        {/* Ações */}
+
         <Text style={dashboardStyles.sectionTitle}>
           Ações rápidas
         </Text>
@@ -112,7 +112,7 @@ export default function ExemploDashboardScreen({ navigation }: any) {
 
       </ScrollView>
 
-      {/* Menu inferior */}
+
       <View style={dashboardStyles.bottomNavigation}>
 
         <TouchableOpacity

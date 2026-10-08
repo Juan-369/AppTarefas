@@ -12,14 +12,14 @@ import { listStyles } from '../styles/ListStyles';
 export default function ExemploListScreen() {
   return (
     <View style={listStyles.container}>
-      {/* Cabeçalho */}
+
       <View style={listStyles.header}>
 
         <Text style={listStyles.title}>
           Produtos
         </Text>
 
-        {/* Pesquisa */}
+
         <View style={listStyles.searchContainer}>
 
           <Text style={listStyles.searchIcon}>
@@ -38,7 +38,7 @@ export default function ExemploListScreen() {
         contentContainerStyle={listStyles.listContent}
       >
 
-        {/* Produto 1 */}
+
         <View style={listStyles.card}>
           <View style={listStyles.cardHeader}>
             <View style={listStyles.cardTitleContainer}>
@@ -90,7 +90,7 @@ export default function ExemploListScreen() {
           </View>
         </View>
 
-        {/* Produto 2 */}
+
         <View style={listStyles.card}>
           <View style={listStyles.cardHeader}>
             <View style={listStyles.cardTitleContainer}>
@@ -144,7 +144,7 @@ export default function ExemploListScreen() {
 
         </View>
 
-        {/* Produto 3 */}
+
         <View style={listStyles.card}>
 
           <View style={listStyles.cardHeader}>

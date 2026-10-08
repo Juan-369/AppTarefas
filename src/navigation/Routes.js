@@ -9,9 +9,9 @@ const Stack = createNativeStackNavigator();
 
 export default function Routes() {
   return (
-    // Envolve toda a navegação do aplicativo.
+
     <NavigationContainer>
-      {/* Cria a pilha de telas. */}
+
       <Stack.Navigator>
         <Stack.Screen
             name="Login"

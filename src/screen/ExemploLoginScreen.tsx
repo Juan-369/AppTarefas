@@ -61,7 +61,7 @@ export default function ExemploLoginScreen({ navigation }: any) {
               Entrar
             </Text>
           </TouchableOpacity>
-          
+
           <View style={loginStyles.createAccountContainer}>
             <Text style={loginStyles.createAccountText}>
               Não possui uma conta?
